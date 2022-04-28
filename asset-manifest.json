@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/LucasAlejandroValente/desafio-nav/static/css/main.a378ac4b.css",
+    "main.js": "/LucasAlejandroValente/desafio-nav/static/js/main.97566c77.js",
+    "static/js/787.b637ca60.chunk.js": "/LucasAlejandroValente/desafio-nav/static/js/787.b637ca60.chunk.js",
+    "index.html": "/LucasAlejandroValente/desafio-nav/index.html",
+    "main.a378ac4b.css.map": "/LucasAlejandroValente/desafio-nav/static/css/main.a378ac4b.css.map",
+    "main.97566c77.js.map": "/LucasAlejandroValente/desafio-nav/static/js/main.97566c77.js.map",
+    "787.b637ca60.chunk.js.map": "/LucasAlejandroValente/desafio-nav/static/js/787.b637ca60.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a378ac4b.css",
+    "static/js/main.97566c77.js"
+  ]
+}
