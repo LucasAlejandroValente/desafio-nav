@@ -1,12 +1,13 @@
-import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar';
-import ItemListContainer from './components/ItemListContainer';
+import Contador from './components/Contador';
+import ItemListContainer from './components/catalogue/ItemListContainer';
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
+      <Contador/>
       <ItemListContainer/>
     </div>
   );

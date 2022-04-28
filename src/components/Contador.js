@@ -1,6 +1,6 @@
 import { React, useState } from 'react';
 
-const ItemListContainer = () => {
+const Counter = () => {
     const [counter, setCounter] = useState(0);
 
     const increaseCounter = () => {
@@ -27,4 +27,4 @@ const ItemListContainer = () => {
     );
 };
 
-export default ItemListContainer
+export default Counter
