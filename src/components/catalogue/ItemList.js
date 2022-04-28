@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { itemData } from "../../data/ItemData";
+import { itemData } from "../../data/itemData";
 import ItemCard from "./ItemCard";
 
 const ItemList = () => {
@@ -7,11 +7,11 @@ const ItemList = () => {
     const [items, setItems] = useState([])
 
     useEffect(() => {
-
+        getItems()
     }, []);
 
     const getItems = () => {
-        const getItemsPromise = new Promise((res, rej) => {
+        const getItemsPromise = new Promise((res,rej) => {
             setTimeout(() => {
                 res(itemData);
             }, 2000);
