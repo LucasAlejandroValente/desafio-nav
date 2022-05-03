@@ -5,7 +5,8 @@ export const itemData = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor ante, convallis eget malesuada quis, efficitur congue erat. Sed nisi metus, condimentum et tempor quis, finibus nec elit.',
         stock: '12',
         img: 'https://http2.mlstatic.com/D_NQ_NP_934535-MLA32722027938_102019-O.webp',
-        price: '9200'
+        price: '9200',
+        condition: 'usado'
     },
     {
         id: '2',
@@ -13,7 +14,8 @@ export const itemData = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor ante, convallis eget malesuada quis, efficitur congue erat. Sed nisi metus, condimentum et tempor quis, finibus nec elit.',
         stock: '75',
         img: 'https://http2.mlstatic.com/D_NQ_NP_665863-MLA43567531465_092020-O.webp',
-        price: '6500'
+        price: '6500',
+        condition: 'usado'
     },
     {
         id: '3',
@@ -21,7 +23,8 @@ export const itemData = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor ante, convallis eget malesuada quis, efficitur congue erat. Sed nisi metus, condimentum et tempor quis, finibus nec elit.',
         stock: '43',
         img: 'https://http2.mlstatic.com/D_NQ_NP_786588-MLA48688768774_122021-O.webp',
-        price: '5700'
+        price: '5700',
+        condition: 'nuevo'
     },
     {
         id: '4',
@@ -29,7 +32,8 @@ export const itemData = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor ante, convallis eget malesuada quis, efficitur congue erat. Sed nisi metus, condimentum et tempor quis, finibus nec elit.',
         stock: '2',
         img: 'https://http2.mlstatic.com/D_NQ_NP_979408-MLA42843661201_072020-O.webp',
-        price: '6250'
+        price: '6250',
+        condition: 'usado'
     },
     {
         id: '5',
@@ -37,7 +41,8 @@ export const itemData = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor ante, convallis eget malesuada quis, efficitur congue erat. Sed nisi metus, condimentum et tempor quis, finibus nec elit.',
         stock: '120',
         img: 'https://http2.mlstatic.com/D_NQ_NP_620605-MLA32691559317_102019-O.webp',
-        price: '5900'
+        price: '5900',
+        condition: 'nuevo'
     },
     {
         id: '6',
@@ -45,15 +50,17 @@ export const itemData = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor ante, convallis eget malesuada quis, efficitur congue erat. Sed nisi metus, condimentum et tempor quis, finibus nec elit.',
         stock: '21',
         img: 'https://http2.mlstatic.com/D_NQ_NP_804179-MLA46771413322_072021-O.webp',
-        price: '5700'
+        price: '5700',
+        condition: 'usado'
     },
     {
         id: '7',
-        title: '',
+        title: 'Teclado gamer HyperX Alloy FPS Pro QWERTY Cherry MX Red',
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor ante, convallis eget malesuada quis, efficitur congue erat. Sed nisi metus, condimentum et tempor quis, finibus nec elit.',
         stock: '11',
         img: 'https://http2.mlstatic.com/D_NQ_NP_934535-MLA32722027938_102019-O.webp',
-        price: '5700'
+        price: '5700',
+        condition: 'nuevo'
     },
     {
         id: '8',
@@ -61,7 +68,8 @@ export const itemData = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor ante, convallis eget malesuada quis, efficitur congue erat. Sed nisi metus, condimentum et tempor quis, finibus nec elit.',
         stock: '5',
         img: 'https://http2.mlstatic.com/D_NQ_NP_873684-MLA43398662430_092020-O.webp',
-        price: '5200'
+        price: '5200',
+        condition: 'usado'
     },
     {
         id: '9',
@@ -69,7 +77,8 @@ export const itemData = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor ante, convallis eget malesuada quis, efficitur congue erat. Sed nisi metus, condimentum et tempor quis, finibus nec elit.',
         stock: '3',
         img: 'https://http2.mlstatic.com/D_NQ_NP_681078-MLA46621071751_072021-O.webp',
-        price: '5700'
+        price: '5700',
+        condition: 'nuevo'
     },
     {
         id: '10',
@@ -77,6 +86,7 @@ export const itemData = [
         description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dolor ante, convallis eget malesuada quis, efficitur congue erat. Sed nisi metus, condimentum et tempor quis, finibus nec elit.',
         stock: '14',
         img: 'https://http2.mlstatic.com/D_NQ_NP_975008-MLA46503943203_062021-O.webp',
-        price: '8400'
+        price: '8400',
+        condition: 'nuevo'
     }
 ];

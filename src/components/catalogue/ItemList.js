@@ -19,8 +19,7 @@ const ItemList = () => {
 
          getItemsPromise.then( data => {
              setItems(data)
-
-         })
+         });
 
     };
     
