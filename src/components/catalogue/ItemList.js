@@ -7,10 +7,10 @@ const ItemList = () => {
     const [items, setItems] = useState([])
 
     useEffect(() => {
-        getItems()
+        getItems2()
     }, []);
 
-    const getItems = () => {
+    const getItems2 = () => {
         const getItemsPromise = new Promise((res,rej) => {
             setTimeout(() => {
                 res(itemData);

@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const ItemCard = (props) => {
 
     const {id, title, description, img, stock, price} = props.item;
@@ -11,7 +13,7 @@ const ItemCard = (props) => {
                     <p>{description}</p>
                     <div className="card-actions justify-end">
                         <strong>${price}</strong>
-                        <button className="btn btn-primary">Comprar</button>
+                        <button className="btn btn-primary"><Link to={`/item/${id}`}>Ver</Link></button>
                     </div>
                 </div>
             </div>
