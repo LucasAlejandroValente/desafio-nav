@@ -1,10 +1,12 @@
 import { React, useState } from 'react';
 
-const Counter = () => {
+const Counter = ({stock, onAdd, initial}) => {
     const [counter, setCounter] = useState(0);
 
     const increaseCounter = () => {
-        setCounter(count => count + 1)
+        if (counter + 1 <= stock) {
+            setCounter(counter + 1)
+        }
     };
 
     const decreaseCounter = () => {
@@ -14,12 +16,14 @@ const Counter = () => {
     };
 
     return  (
-        <div className='counter container-lg block'>
-            <h1 className='text-3xl m-8'>Contador</h1>
+        <div className='counter container-sm block border m-5 p-5'>
             <span>{counter}</span>
             <div className='btn_container flex justify-center'>
                 <button className='item_btn border-solid border-2 w-8 m-8' onClick={increaseCounter}>+</button>
                 <button className='item_btn border-solid border-2 w-8 m-8' onClick={decreaseCounter}>-</button>
+            </div>
+            <div>
+                <button className='btn bg-primary' onClick={()=> onAdd(counter)}>Agregar al carrito</button>
             </div>
 
         </div>

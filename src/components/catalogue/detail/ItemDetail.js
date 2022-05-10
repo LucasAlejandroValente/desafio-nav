@@ -1,8 +1,17 @@
 import { list } from "postcss";
+import { useState } from "react";
+import Counter from "../../Contador";
 
 const ItemDetail = (props) => {
 
     const {id, title, description, img, stock, price, condition} = props.detail;
+
+    const [terminar, setTerminar] = useState(false)
+
+    const onAdd = (count) => {
+        setTerminar (true)
+        console.log(count)
+    } 
 
     return (
         <div>
@@ -15,7 +24,12 @@ const ItemDetail = (props) => {
                         <p class="py-6">Stock: {stock}</p>
                         <p class="py-6">Precio: ${price}</p>
                         <p class="py-6">Condición: {condition}</p>
-                        <button class="btn btn-primary">Comprar</button>
+                        <div>
+                            {terminar ?
+                                (<button className="btn bg-primary text-white"
+                                >Terminar compra</button>)
+                            : (<Counter stock= {stock} onAdd={onAdd}></Counter>)}
+                        </div>
                     </div>
                 </div>
             </div>
