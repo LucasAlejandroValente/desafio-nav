@@ -28,7 +28,7 @@ const ItemDetail = (props) => {
                             {terminar ?
                                 (<button className="btn bg-primary text-white"
                                 >Terminar compra</button>)
-                            : (<Counter stock= {stock} onAdd={onAdd}></Counter>)}
+                            : (<Counter stock= {stock} onAdd={onAdd} id={id}></Counter>)}
                         </div>
                     </div>
                 </div>
